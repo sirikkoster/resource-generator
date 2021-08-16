@@ -15,7 +15,7 @@ class {{ $request['singular'] }} extends Resource
      *
      * @var string
      */
-    public static $model = \{{ $model }}\{{ $request['singular'] }}::class;
+    public static $model = \{{ $model }}\Models\{{ $request['singular'] }}::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
