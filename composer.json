@@ -1,5 +1,5 @@
 {
-    "name": "cloudstudio/resource-generator",
+    "name": "sirikkoster/resource-generator",
     "description": "Resource Generator for Laravel Nova",
     "keywords": [
         "resource",
@@ -9,16 +9,6 @@
     ],
     "license": "MIT",
     "authors": [
-        {
-            "name": "Toni Soriano",
-            "email": "hello@cloudstudio.es",
-            "role": "Developer"
-        },
-        {
-            "name": "Eric Lagarda",
-            "email": "eric@infinety.es",
-            "role": "Developer"
-        }
     ],
     "require": {
         "php": ">=7.1.0",
@@ -31,13 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Cloudstudio\\ResourceGenerator\\": "src/"
+            "SirikKoster\\ResourceGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Cloudstudio\\ResourceGenerator\\ResourceGeneratorServiceProvider"
+                "SirikKoster\\ResourceGenerator\\ResourceGeneratorServiceProvider"
             ]
         }
     },

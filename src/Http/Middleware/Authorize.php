@@ -1,9 +1,9 @@
 <?php
 
-namespace Cloudstudio\ResourceGenerator\Http\Middleware;
+namespace SirikKoster\ResourceGenerator\Http\Middleware;
 
 use Illuminate\Http\Request;
-use Cloudstudio\ResourceGenerator\ResourceGenerator;
+use SirikKoster\ResourceGenerator\ResourceGenerator;
 
 class Authorize
 {

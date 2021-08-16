@@ -1,13 +1,13 @@
 <?php
 
-namespace Cloudstudio\ResourceGenerator\Http\Services;
+namespace SirikKoster\ResourceGenerator\Http\Services;
 
 use Doctrine\DBAL\Schema\Column;
 use Illuminate\Database\DatabaseManager;
 
 class ResourceGeneratorService
 {
-    use \Cloudstudio\ResourceGenerator\Http\Services\GeneratorFunctions;
+    use \SirikKoster\ResourceGenerator\Http\Services\GeneratorFunctions;
 
     private $db;
 

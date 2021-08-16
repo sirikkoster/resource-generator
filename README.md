@@ -1,6 +1,6 @@
 # Resource Generator tool for Laravel Nova
 
-[![Total Downloads](https://img.shields.io/packagist/dt/cloudstudio/resource-generator.svg?style=flat-square)](https://packagist.org/packages/cloudstudio/resource-generator)
+[![Total Downloads](https://img.shields.io/packagist/dt/sirikkoster/resource-generator.svg?style=flat-square)](https://packagist.org/packages/sirikkoster/resource-generator)
 
 Resource Generator for Laravel Nova
 
@@ -15,7 +15,7 @@ You can install the package in to a Laravel app that uses [Nova](https://nova.la
 
 ```bash
 
-composer require cloudstudio/resource-generator
+composer require sirikkoster/resource-generator
 ```
 
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
@@ -29,7 +29,7 @@ public function tools()
 {
     return [
         // ...
-        new \Cloudstudio\ResourceGenerator\ResourceGenerator(),
+        new \SirikKoster\ResourceGenerator\ResourceGenerator(),
     ];
 }
 ```
@@ -71,7 +71,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Credits
 
 - [Eric Lagarda](https://github.com/Krato) 
-- [Toni Soriano](https://github.com/cloudstudio)
+- [Toni Soriano](https://github.com/sirikkoster)
 
 ## License
 

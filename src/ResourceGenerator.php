@@ -1,6 +1,6 @@
 <?php
 
-namespace Cloudstudio\ResourceGenerator;
+namespace SirikKoster\ResourceGenerator;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;

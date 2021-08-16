@@ -1,6 +1,6 @@
 <?php
 
-namespace Cloudstudio\ResourceGenerator\Http\Services;
+namespace SirikKoster\ResourceGenerator\Http\Services;
 
 use File;
 use Illuminate\Support\Str;
